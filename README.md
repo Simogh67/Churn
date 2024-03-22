@@ -28,6 +28,7 @@ Below is a tree-like structure of the main directories and files in this reposit
 
 data/
 ├── bank_data.csv # Contains banking data used for analysis.
+
 images/
 ├── eda/ # Contains exploratory data analysis images.
 │ ├── churn_distribution.png # Distribution of churn across customers.
@@ -35,13 +36,16 @@ images/
 │ ├── heatmap.png # Heatmap of correlations between features.
 │ ├── marital_status_distribution.png # Marital status distribution of customers.
 │ └── total_transaction_distribution.png # Distribution of total transactions by customers.
+
 ├── results/ # Contains images of analysis results.
 │ ├── feature_importance.png # Importance of each feature in the model.
 │ ├── logistics_results.png # Results from the logistic regression model.
 │ ├── rf_results.png # Results from the random forest classifier.
 │ └── roc_curve_result.png # ROC curve for the models.
+
 logs/
 ├── churn_library.log # Log file for the churn library processes.
+
 models/
 ├── logistic_model.pkl # Pickled logistic regression model.
 ├── rfc_model.pkl # Pickled random forest classifier model.
