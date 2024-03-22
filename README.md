@@ -26,29 +26,28 @@ running the scripts generates the following items:
 
 Below is a tree-like structure of the main directories and files in this repository, along with a brief description of each:
 
-data/
-├── bank_data.csv # Contains banking data used for analysis.
-
-images/
-├── eda/ # Contains exploratory data analysis images.
-│ ├── churn_distribution.png # Distribution of churn across customers.
-│ ├── customer_age_distribution.png # Age distribution of customers.
-│ ├── heatmap.png # Heatmap of correlations between features.
-│ ├── marital_status_distribution.png # Marital status distribution of customers.
-│ └── total_transaction_distribution.png # Distribution of total transactions by customers.
-
-├── results/ # Contains images of analysis results.
-│ ├── feature_importance.png # Importance of each feature in the model.
-│ ├── logistics_results.png # Results from the logistic regression model.
-│ ├── rf_results.png # Results from the random forest classifier.
-│ └── roc_curve_result.png # ROC curve for the models.
-
-logs/
-├── churn_library.log # Log file for the churn library processes.
-
-models/
-├── logistic_model.pkl # Pickled logistic regression model.
-├── rfc_model.pkl # Pickled random forest classifier model.
+- **data/**
+  - `bank_data.csv`: Contains banking data used for analysis.
+- **images/**
+  - **eda/**: Contains exploratory data analysis images.
+    - `churn_distribution.png`: Distribution of churn across customers.
+    - `customer_age_distribution.png`: Age distribution of customers.
+    - `heatmap.png`: Heatmap of correlations between features.
+    - `marital_status_distribution.png`: Marital status distribution of customers.
+    - `total_transaction_distribution.png`: Distribution of total transactions by customers.
+  - **results/**: Contains images of analysis results.
+    - `feature_importance.png`: Importance of each feature in the model.
+    - `logistics_results.png`: Results from the logistic regression model.
+    - `rf_results.png`: Results from the random forest classifier.
+    - `roc_curve_result.png`: ROC curve for the models.
+- **logs/**
+  - `churn_library.log`: Log file for the churn library processes.
+- **models/**
+  - `logistic_model.pkl`: Pickled logistic regression model.
+  - `rfc_model.pkl`: Pickled random forest classifier model.
+- `churn_library.py`: Main Python script for churn analysis library.
+- `churn_notebook.ipynb`: Jupyter notebook for exploratory data analysis and model development.
+- `churn_script_logging_and_tests.py`: Script for logging and running tests on the churn analysis processes.
 
 ## Requirements
 
