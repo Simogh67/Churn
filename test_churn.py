@@ -199,8 +199,9 @@ def test_train_models():
 
 
 if __name__ == "__main__":
-    test_import(path)
-    test_eda(path)
-    test_encoder_helper(path)
-    test_perform_feature_engineering(path)
-    test_train_models(path)
+    filepath = path()
+    test_import(filepath)
+    test_eda(filepath)
+    test_encoder_helper(filepath)
+    test_perform_feature_engineering(filepath)
+    test_train_models(filepath)
